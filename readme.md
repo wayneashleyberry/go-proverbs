@@ -9,11 +9,7 @@
 
 Check out [Rob Pike's video](https://www.youtube.com/watch?v=PAAkCSZUG1c).
 
-### Motivation
-
-### Usage
-
-#### As a package
+### Package
 
 ```sh
 go get github.com/wayneashleyberry/go-proverbs/
@@ -34,7 +30,7 @@ func main() {
 }
 ```
 
-#### As a command
+### Command
 
 ```sh
 go get github.com/wayneashleyberry/go-proverbs/...
@@ -44,3 +40,7 @@ go get github.com/wayneashleyberry/go-proverbs/...
 goproverb
 > Design the architecture, name the components, document the details.
 ```
+
+### Motivation
+
+I wanted a nice greeting message for my shell :)
