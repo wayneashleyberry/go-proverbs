@@ -43,5 +43,5 @@ func First() string {
 }
 
 func Last() string {
-	return proverbs[len(proverbs)]
+	return proverbs[len(proverbs)-1]
 }
