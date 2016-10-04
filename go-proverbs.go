@@ -1,3 +1,6 @@
+// Package goproverbs provides conveniant methods for Go proverbs. The proverbs
+// were copied from https://go-proverbs.github.io/ and were originally inspired
+// by Rob Pike's talk which can be seen here: https://youtu.be/PAAkCSZUG1c
 package goproverbs
 
 import (
