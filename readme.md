@@ -44,3 +44,6 @@ goproverb
 ### Motivation
 
 I wanted a nice greeting message for my shell :)
+
+![screen shot 2016-10-04 at 5 28 46 pm](https://cloud.githubusercontent.com/assets/727262/19080734/4708ab08-8a58-11e6-924b-60a350d0e926.png)
+
