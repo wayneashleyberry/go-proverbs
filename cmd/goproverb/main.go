@@ -1,3 +1,4 @@
+// Command goproverb echo's a random Go proverb.
 package main
 
 import (
