@@ -1,6 +1,9 @@
 package goproverbs
 
-import "math/rand"
+import (
+	"math/rand"
+	"time"
+)
 
 var proverbs []string = []string{
 	"A little copying is better than a little dependency.",
@@ -29,7 +32,9 @@ func All() []string {
 }
 
 func Random() string {
-	i := rand.Intn(len(proverbs))
+	s := rand.NewSource(time.Now().UnixNano())
+	r := rand.New(s)
+	i := r.Intn(len(proverbs))
 	return proverbs[i]
 }
 
