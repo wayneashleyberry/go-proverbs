@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-var proverbs []string = []string{
+var proverbs = []string{
 	"A little copying is better than a little dependency.",
 	"Cgo is not Go.",
 	"Cgo must always be guarded with build tags.",
@@ -19,18 +19,20 @@ var proverbs []string = []string{
 	"Don't panic.",
 	"Errors are values.",
 	"Gofmt's style is no one's favorite, yet gofmt is everyone's favorite.",
+	"interface{} says nothing.",
 	"Make the zero value useful.",
 	"Reflection is never clear.",
 	"Syscall must always be guarded with build tags.",
 	"The bigger the interface, the weaker the abstraction.",
 	"With the unsafe package there are no guarantees.",
-	"interface{} says nothing.",
 }
 
+// All returns all Go proverbs
 func All() []string {
 	return proverbs
 }
 
+// Random returns a random Go proverb
 func Random() string {
 	s := rand.NewSource(time.Now().UnixNano())
 	r := rand.New(s)
@@ -38,10 +40,12 @@ func Random() string {
 	return proverbs[i]
 }
 
+// First returns the first Go proverb (alphabetically)
 func First() string {
 	return proverbs[0]
 }
 
+// Last returns the last Go proverb (alphabetically)
 func Last() string {
 	return proverbs[len(proverbs)-1]
 }
