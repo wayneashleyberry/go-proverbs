@@ -29,7 +29,7 @@ func All() []string {
 }
 
 func Random() string {
-	i = rand.Intn(len(reasons))
+	i := rand.Intn(len(proverbs))
 	return proverbs[i]
 }
 
