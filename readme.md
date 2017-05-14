@@ -1,4 +1,4 @@
-## go-proverbs
+![Screenshot](https://raw.githubusercontent.com/wayneashleyberry/go-proverbs/master/screenshot.png)
 
 > Go Proverbs for your code or command line.
 
@@ -10,7 +10,21 @@
 
 Check out [Rob Pike's video](https://www.youtube.com/watch?v=PAAkCSZUG1c).
 
-### Package
+### Usage
+
+#### CLI
+
+```sh
+go get github.com/wayneashleyberry/go-proverbs/...
+```
+
+```sh
+goproverb
+> Design the architecture, name the components, document the details.
+```
+
+
+#### Package
 
 ```sh
 go get github.com/wayneashleyberry/go-proverbs/
@@ -30,20 +44,3 @@ func main() {
 	fmt.Println(p.Random())
 }
 ```
-
-### Command
-
-```sh
-go get github.com/wayneashleyberry/go-proverbs/...
-```
-
-```sh
-goproverb
-> Design the architecture, name the components, document the details.
-```
-
-### Motivation
-
-I wanted a nice greeting message for my shell :)
-
-![screen shot 2016-10-04 at 5 28 46 pm](https://cloud.githubusercontent.com/assets/727262/19080734/4708ab08-8a58-11e6-924b-60a350d0e926.png)
