@@ -19,8 +19,8 @@ go get github.com/wayneashleyberry/go-proverbs/...
 ```
 
 ```sh
-goproverb
-> Design the architecture, name the components, document the details.
+$ goproverb
+Design the architecture, name the components, document the details.
 ```
 
 
