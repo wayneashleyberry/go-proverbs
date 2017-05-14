@@ -1,6 +1,6 @@
 ![Screenshot](https://raw.githubusercontent.com/wayneashleyberry/go-proverbs/master/screenshot.png)
 
-> Go Proverbs for your code or command line.
+> Go Proverbs as a package and cli.
 
 [![Build Status](https://travis-ci.org/wayneashleyberry/go-proverbs.svg?branch=master)](https://travis-ci.org/wayneashleyberry/go-proverbs)
 [![Go Report Card](https://goreportcard.com/badge/github.com/wayneashleyberry/go-proverbs)](https://goreportcard.com/report/github.com/wayneashleyberry/go-proverbs)
