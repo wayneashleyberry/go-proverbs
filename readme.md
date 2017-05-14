@@ -44,3 +44,7 @@ func main() {
 	fmt.Println(p.Random())
 }
 ```
+
+### License
+
+MIT © [Wayne Ashley Berry](https://wayne.cloud)
