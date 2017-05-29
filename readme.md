@@ -40,7 +40,7 @@ import (
 )
 
 func main() {
-    // Prints a random Go proverb.
+	// Prints a random Go proverb.
 	fmt.Println(p.Random())
 }
 ```
