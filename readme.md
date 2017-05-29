@@ -8,7 +8,7 @@
 
 ### What are Go proverbs?
 
-Check out [Rob Pike's video](https://www.youtube.com/watch?v=PAAkCSZUG1c).
+Check out [Rob Pike's](https://twitter.com/rob_pike) inspiring [talk at Gopherfest SV 2015](https://www.youtube.com/watch?v=PAAkCSZUG1c)).
 
 ### Usage
 
