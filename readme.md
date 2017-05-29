@@ -1,4 +1,13 @@
-![Screenshot](https://cloud.githubusercontent.com/assets/727262/26555544/c7b40ce6-4495-11e7-8d48-28100d071b22.png)
+```
+ _________________________________
+< Concurrency is not parallelism. >
+ ---------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
 
 > Go Proverbs as a package and cli.
 
