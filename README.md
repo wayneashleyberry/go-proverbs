@@ -25,7 +25,7 @@ Check out [Rob Pike's](https://twitter.com/rob_pike) inspiring [talk at Gopherfe
 
 ### Usage
 
-#### CLI
+#### Command
 
 ```sh
 go get github.com/wayneashleyberry/go-proverbs/...
@@ -35,7 +35,6 @@ go get github.com/wayneashleyberry/go-proverbs/...
 $ goproverb
 Design the architecture, name the components, document the details.
 ```
-
 
 #### Package
 
@@ -53,8 +52,7 @@ import (
 )
 
 func main() {
-	// Prints a random Go proverb.
-	fmt.Println(p.Random())
+	fmt.Println(p.Random()) // Prints a random Go proverb.
 }
 ```
 
