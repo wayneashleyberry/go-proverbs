@@ -13,7 +13,7 @@
                Cowth Vader
 ```
 
-> Go Proverbs as a package and cli.
+> Go Proverbs as a package and command.
 
 [![Build Status](https://travis-ci.org/wayneashleyberry/go-proverbs.svg?branch=master)](https://travis-ci.org/wayneashleyberry/go-proverbs)
 [![Go Report Card](https://goreportcard.com/badge/github.com/wayneashleyberry/go-proverbs)](https://goreportcard.com/report/github.com/wayneashleyberry/go-proverbs)
